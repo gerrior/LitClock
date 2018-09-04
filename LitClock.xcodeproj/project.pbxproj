@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6369AA0F2119443E0008A736 /* LitSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6369AA0E2119443E0008A736 /* LitSaverView.h */; };
+		6369AA112119443E0008A736 /* LitSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6369AA102119443E0008A736 /* LitSaverView.m */; };
+		6369AA16211945890008A736 /* LitClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB3C12117A9B60019A445 /* LitClockView.m */; };
+		6369AA17211945890008A736 /* Quote.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB3C72117AB220019A445 /* Quote.m */; };
+		6369AA18211945890008A736 /* LitClockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB3C42117AADF0019A445 /* LitClockModel.m */; };
+		6369AA192119458F0008A736 /* litclock.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63CEB3BE21179DDA0019A445 /* litclock.txt */; };
+		6369AA1C21194BEE0008A736 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369AA1A21194BEE0008A736 /* thumbnail.png */; };
+		6369AA1D21194BEE0008A736 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6369AA1B21194BEE0008A736 /* thumbnail@2x.png */; };
+		63CEB3AF21179DB70019A445 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB3AE21179DB70019A445 /* AppDelegate.m */; };
+		63CEB3B221179DB70019A445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB3B121179DB70019A445 /* main.m */; };
+		63CEB3B421179DB70019A445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63CEB3B321179DB70019A445 /* Assets.xcassets */; };
+		63CEB3B721179DB70019A445 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63CEB3B521179DB70019A445 /* MainMenu.xib */; };
+		63CEB3BF21179DDA0019A445 /* litclock.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63CEB3BE21179DDA0019A445 /* litclock.txt */; };
+		63CEB3C22117A9B70019A445 /* LitClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB3C12117A9B60019A445 /* LitClockView.m */; };
+		63CEB3C52117AADF0019A445 /* LitClockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB3C42117AADF0019A445 /* LitClockModel.m */; };
+		63CEB3C82117AB220019A445 /* Quote.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEB3C72117AB220019A445 /* Quote.m */; };
+		63CEB3CB2117D6DC0019A445 /* Blank.icns in Resources */ = {isa = PBXBuildFile; fileRef = 63CEB3CA2117D6DC0019A445 /* Blank.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6369AA0C2119443E0008A736 /* LitSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LitSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		6369AA0E2119443E0008A736 /* LitSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LitSaverView.h; sourceTree = "<group>"; };
+		6369AA102119443E0008A736 /* LitSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LitSaverView.m; sourceTree = "<group>"; };
+		6369AA122119443E0008A736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6369AA1A21194BEE0008A736 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		6369AA1B21194BEE0008A736 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		63CEB3AA21179DB70019A445 /* LitClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LitClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CEB3AD21179DB70019A445 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63CEB3AE21179DB70019A445 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63CEB3B121179DB70019A445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63CEB3B321179DB70019A445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63CEB3B621179DB70019A445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		63CEB3B821179DB70019A445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63CEB3BE21179DDA0019A445 /* litclock.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = litclock.txt; sourceTree = "<group>"; };
+		63CEB3C02117A9B60019A445 /* LitClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitClockView.h; sourceTree = "<group>"; };
+		63CEB3C12117A9B60019A445 /* LitClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitClockView.m; sourceTree = "<group>"; };
+		63CEB3C32117AADF0019A445 /* LitClockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitClockModel.h; sourceTree = "<group>"; };
+		63CEB3C42117AADF0019A445 /* LitClockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitClockModel.m; sourceTree = "<group>"; };
+		63CEB3C62117AB220019A445 /* Quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quote.h; sourceTree = "<group>"; };
+		63CEB3C72117AB220019A445 /* Quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quote.m; sourceTree = "<group>"; };
+		63CEB3C92117C40A0019A445 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		63CEB3CA2117D6DC0019A445 /* Blank.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Blank.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6369AA082119443E0008A736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CEB3A721179DB70019A445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6369AA0D2119443E0008A736 /* LitSaver */ = {
+			isa = PBXGroup;
+			children = (
+				6369AA1A21194BEE0008A736 /* thumbnail.png */,
+				6369AA1B21194BEE0008A736 /* thumbnail@2x.png */,
+				6369AA0E2119443E0008A736 /* LitSaverView.h */,
+				6369AA102119443E0008A736 /* LitSaverView.m */,
+				6369AA122119443E0008A736 /* Info.plist */,
+			);
+			path = LitSaver;
+			sourceTree = "<group>";
+		};
+		63CEB3A121179DB60019A445 = {
+			isa = PBXGroup;
+			children = (
+				63CEB3C92117C40A0019A445 /* ReadMe.txt */,
+				63CEB3AC21179DB70019A445 /* LitClock */,
+				6369AA0D2119443E0008A736 /* LitSaver */,
+				63CEB3AB21179DB70019A445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63CEB3AB21179DB70019A445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63CEB3AA21179DB70019A445 /* LitClock.app */,
+				6369AA0C2119443E0008A736 /* LitSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63CEB3AC21179DB70019A445 /* LitClock */ = {
+			isa = PBXGroup;
+			children = (
+				63CEB3AD21179DB70019A445 /* AppDelegate.h */,
+				63CEB3AE21179DB70019A445 /* AppDelegate.m */,
+				63CEB3C02117A9B60019A445 /* LitClockView.h */,
+				63CEB3C12117A9B60019A445 /* LitClockView.m */,
+				63CEB3C62117AB220019A445 /* Quote.h */,
+				63CEB3C72117AB220019A445 /* Quote.m */,
+				63CEB3C32117AADF0019A445 /* LitClockModel.h */,
+				63CEB3C42117AADF0019A445 /* LitClockModel.m */,
+				63CEB3B321179DB70019A445 /* Assets.xcassets */,
+				63CEB3CA2117D6DC0019A445 /* Blank.icns */,
+				63CEB3B521179DB70019A445 /* MainMenu.xib */,
+				63CEB3B821179DB70019A445 /* Info.plist */,
+				63CEB3BE21179DDA0019A445 /* litclock.txt */,
+				63CEB3B021179DB70019A445 /* Supporting Files */,
+			);
+			path = LitClock;
+			sourceTree = "<group>";
+		};
+		63CEB3B021179DB70019A445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63CEB3B121179DB70019A445 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6369AA092119443E0008A736 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6369AA0F2119443E0008A736 /* LitSaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6369AA0B2119443E0008A736 /* LitSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6369AA152119443E0008A736 /* Build configuration list for PBXNativeTarget "LitSaver" */;
+			buildPhases = (
+				6369AA072119443E0008A736 /* Sources */,
+				6369AA082119443E0008A736 /* Frameworks */,
+				6369AA092119443E0008A736 /* Headers */,
+				6369AA0A2119443E0008A736 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LitSaver;
+			productName = LitSaver;
+			productReference = 6369AA0C2119443E0008A736 /* LitSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		63CEB3A921179DB70019A445 /* LitClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CEB3BB21179DB70019A445 /* Build configuration list for PBXNativeTarget "LitClock" */;
+			buildPhases = (
+				63CEB3A621179DB70019A445 /* Sources */,
+				63CEB3A721179DB70019A445 /* Frameworks */,
+				63CEB3A821179DB70019A445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LitClock;
+			productName = LitClock;
+			productReference = 63CEB3AA21179DB70019A445 /* LitClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63CEB3A221179DB60019A445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "David Phillip Oster";
+				TargetAttributes = {
+					6369AA0B2119443E0008A736 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					63CEB3A921179DB70019A445 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63CEB3A521179DB60019A445 /* Build configuration list for PBXProject "LitClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63CEB3A121179DB60019A445;
+			productRefGroup = 63CEB3AB21179DB70019A445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63CEB3A921179DB70019A445 /* LitClock */,
+				6369AA0B2119443E0008A736 /* LitSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6369AA0A2119443E0008A736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6369AA1C21194BEE0008A736 /* thumbnail.png in Resources */,
+				6369AA192119458F0008A736 /* litclock.txt in Resources */,
+				6369AA1D21194BEE0008A736 /* thumbnail@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CEB3A821179DB70019A445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CEB3B421179DB70019A445 /* Assets.xcassets in Resources */,
+				63CEB3CB2117D6DC0019A445 /* Blank.icns in Resources */,
+				63CEB3B721179DB70019A445 /* MainMenu.xib in Resources */,
+				63CEB3BF21179DDA0019A445 /* litclock.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6369AA072119443E0008A736 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6369AA18211945890008A736 /* LitClockModel.m in Sources */,
+				6369AA17211945890008A736 /* Quote.m in Sources */,
+				6369AA112119443E0008A736 /* LitSaverView.m in Sources */,
+				6369AA16211945890008A736 /* LitClockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CEB3A621179DB70019A445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63CEB3C52117AADF0019A445 /* LitClockModel.m in Sources */,
+				63CEB3B221179DB70019A445 /* main.m in Sources */,
+				63CEB3AF21179DB70019A445 /* AppDelegate.m in Sources */,
+				63CEB3C82117AB220019A445 /* Quote.m in Sources */,
+				63CEB3C22117A9B70019A445 /* LitClockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63CEB3B521179DB70019A445 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63CEB3B621179DB70019A445 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6369AA132119443E0008A736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LitSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LitSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		6369AA142119443E0008A736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LitSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LitSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		63CEB3B921179DB70019A445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63CEB3BA21179DB70019A445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		63CEB3BC21179DB70019A445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LitClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LitClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63CEB3BD21179DB70019A445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LitClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LitClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6369AA152119443E0008A736 /* Build configuration list for PBXNativeTarget "LitSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6369AA132119443E0008A736 /* Debug */,
+				6369AA142119443E0008A736 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CEB3A521179DB60019A445 /* Build configuration list for PBXProject "LitClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CEB3B921179DB70019A445 /* Debug */,
+				63CEB3BA21179DB70019A445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CEB3BB21179DB70019A445 /* Build configuration list for PBXNativeTarget "LitClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CEB3BC21179DB70019A445 /* Debug */,
+				63CEB3BD21179DB70019A445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63CEB3A221179DB60019A445 /* Project object */;
+}
